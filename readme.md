@@ -6,6 +6,7 @@
 
 > npm adds your title and description to the top of the page and then adds everything in your README. This will strip the title from the README, publish to npm, and then add the title back to the README. That way it is still good to publish on github as well. You need to run ```npm adduser``` before running this though.
 
+![explanation](explanation.PNG)
 <br>
 
 ## Install
