@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/abrelsfo/npmprep.svg?branch=master)](https://travis-ci.org/abrelsfo/npmprep)
 [![npm download count](http://img.shields.io/npm/dm/npmprep.svg?style=flat)](http://npmjs.org/npmprep)
 
-> npm module to remove the name of the module from the README, publish to npm, add name back
+> npm adds your title and description to the top of the page and then adds everything in your README. This will strip the title from the README, publish to npm, and then add the title back to the README. That way it is still good to publish on github as well. You need to run ```npm adduser``` before running this though.
 
 <br>
 
