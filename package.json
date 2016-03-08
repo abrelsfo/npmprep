@@ -1,6 +1,6 @@
 {
   "name": "npmprep",
-  "version": "0.0.1",
+  "version": "0.1.3",
   "description": "Remove the name of the module from the README, publish to npm, add name back",
   "license": "MIT",
   "repository": "abrelsfo/npmprep",
