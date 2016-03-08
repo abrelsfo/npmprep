@@ -1,0 +1,53 @@
+{
+  "name": "npmprep",
+  "version": "0.0.0",
+  "description": "Remove the name of the module from the README, publish to npm, add name back",
+  "license": "MIT",
+  "repository": "abrelsfo/npmprep",
+  "author": {
+    "name": "abrelsfo",
+    "email": "alexbrelsford@gmail.com",
+    "url": ""
+  },
+	"bugs":{
+		"url": "https://github.com/abrelsfo/npmprep/issues"
+	},
+  "bin": {
+		"npmprep": "cli.js"
+	},
+  "engines": {
+    "node": ">=5.7.0"
+  },
+  "scripts": {
+    "test": "xo && ava",
+		"ava": "ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "Alex"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+		"update-notifier": "^0.6.1",
+    "shelljs": "^0.6.0",
+    "fs": "^0.0.2",
+    "remove_index": "^0.0.1",
+    "chalk": "^1.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "xo": "^0.12.1",
+		"eslint-config-xo-space": "^0.8.0"
+  },
+  "xo": {
+    "space": true,
+    "eslintConfig": {
+      "extends": "xo-space"
+    }
+  }
+}
